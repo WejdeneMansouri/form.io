@@ -1,0 +1,56 @@
+{
+  "title": "Inscription",
+  "display": "form",
+  "type": "form",
+  "name": "inscription",
+  "path": "inscription",
+  "components": [
+    {
+      "label": "Full Name",
+      "key": "nomComplet",
+      "type": "textfield",
+      "validate": {
+        "required": true
+      },
+      "input": true
+    },
+    {
+      "label": "Email",
+      "key": "email",
+      "type": "email",
+      "validate": {
+        "required": true
+      },
+      "input": true
+    },
+    {
+      "label": "Password",
+      "key": "password",
+      "type": "password",
+      "validate": {
+        "required": true,
+        "minLength": 6
+      },
+      "input": true,
+      "protected": true
+    },
+    {
+      "label": "Confirm Password",
+      "key": "confirmPassword",
+      "type": "password",
+      "validate": {
+        "required": true,
+        "minLength": 6
+      },
+      "input": true,
+      "protected": true
+    },
+    {
+      "label": "Submit",
+      "key": "submit",
+      "type": "button",
+      "theme": "primary",
+      "input": true
+    }
+  ]
+}
