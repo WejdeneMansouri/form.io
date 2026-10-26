@@ -23,6 +23,12 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.camunda.bpm.model</groupId>
+            <artifactId>camunda-bpmn-model</artifactId>
+            <version>7.21.0</version>
+        </dependency>
+
         <!-- DocxStamper -->
         <dependency>
             <groupId>org.wickedsource.docx-stamper</groupId>
@@ -72,4 +78,4 @@
         </plugins>
     </build>
 
-</project>t
+</project>
